@@ -3,8 +3,8 @@ import React from "react";
 import "./style.css";
 
 // this component will handle the onClick event and it will render the images to the dom
-// const Cards is being difined as a function props
-const Cards = props => (
+// const Pictures is being difined as a function props
+const Pictures = props => (
     <div className="card" onClick={() => props.clickedImage(props.id)}>
         <div className="img-container">
             <img alt={props.name} src={props.image} />
@@ -14,4 +14,4 @@ const Cards = props => (
     </div>
 );
 
-export default Cards;
+export default Pictures;
