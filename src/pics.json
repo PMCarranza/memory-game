@@ -1,0 +1,71 @@
+[{
+    "id": 1,
+    "image": "images/aphrodite.jpg",
+    "name": "aphrodite"
+},
+{
+    "id": 2,
+    "image": "images/apollo.jpeg",
+    "name": "apollo"
+},
+{
+    "id": 3,
+    "image": "images/artemis.jpeg",
+    "name": "artemis"
+},
+{
+    "id": 4,
+    "image": "images/athena.jpeg",
+    "name": "athena"
+},
+{
+    "id": 5,
+    "image": "images/demeter.jpg",
+    "name": "demeter"
+},
+{
+    "id": 6,
+    "image": "images/hades.jpeg",
+    "name": "hades"
+},
+{
+    "id": 7,
+    "image": "images/hephaestus.jpg",
+    "name": "hephaestus"
+},
+{
+    "id": 8,
+    "image": "images/hera.jpeg",
+    "name": "hera"
+},
+{
+    "id": 9,
+    "image": "images/hermes.jpeg",
+    "name": "hermes"
+},
+{
+    "id": 10,
+    "image": "images/hestia.jpeg",
+    "name": "hestia"
+},
+{
+    "id": 11,
+    "image": "images/mars.jpg",
+    "name": "mars"
+},
+{
+    "id": 12,
+    "image": "images/persephone.jpeg",
+    "name": "persephone"
+},
+{
+    "id": 13,
+    "image": "images/poseidon.jpeg",
+    "name": "poseidon"
+},
+{
+    "id": 14,
+    "image": "images/zeus.jpeg",
+    "name": "zeus"
+}
+]

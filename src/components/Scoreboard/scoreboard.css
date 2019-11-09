@@ -1,0 +1,109 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+/* .jumbo {
+    background-color: rgba(23, 6, 136, 0.7);
+    display: flex;
+    justify-content: center;
+    height: 30%;
+} */
+
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 1rem;
+    display: inline;
+    cursor: default;
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 3rem;
+display: inline;
+cursor: default;
+-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightskyblue;
+}
+
+h2 {
+font-family: Arial, Helvetica, sans-serif;
+color: lightskyblue;
+-webkit-text-stroke-width: .5px;
+-webkit-text-stroke-color: white;
+}
+
+
+.scoreB {
+margin-bottom: 10px;
+background-color: rgba(23, 6, 136, 0.7);
+border-radius: 10px;
+color: white;
+
+}
+
+.col-left {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+}
+
+.col-right {
+font-family: Arial, Helvetica, sans-serif;
+text-align: right;
+padding-top: 20px;
+padding-right: 40px;
+}
+
+.alert-danger {
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+color: #fff;
+background-color: crimson !important;
+border-radius: 10px;
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+cursor: default;
+}
+
+.alert-danger:hover {
+color: #fff;
+background-color: #000 !important;
+}
+
+.alert-success {
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+color: #fff;
+background-color: crimson !important;
+border-radius: 0 !important;
+border-color: none !important;
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+cursor: default;
+}
+
+.alert-success:hover {
+color: #fff;
+background-color: #000 !important;
+}
+
+#root {
+/* background-image: url("/clicky-game/public/images/universe.jpg"); */
+background-color: slategray;
+/* background-attachment: fixed;
+/* background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
+margin-bottom: -30px;
+}
