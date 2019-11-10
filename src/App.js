@@ -14,8 +14,8 @@ function shuffle(array) {
     [array[i], array[j]] = [array[j], array[i]];
     // console.log('this is i - - > ',i, 'this is j - - > ', j);
   }
-  // returns image id, image path and image name
-  console.log('array - - > ', array);
+  // returns image id, image path and image name, this is an array of objects
+  // console.log('array - - > ', array);
   return array;
 }
 
@@ -34,9 +34,10 @@ class App extends Component {
   };
 
   clickedImage = id => {
-    // assign the state of the empty array to a var to be updated
+    // keeps track of the images clicked and pushes them into the clickedDeities array
     var clickedDeities = this.state.clickedDeities;
-    console.log('clicked Deities - - >', clickedDeities)
+    // console.log('clicked Deities - - >', clickedDeities)
+    // updates score
     var score = this.state.score;
     var topScore = this.state.topScore;
     this.setState({
@@ -47,10 +48,10 @@ class App extends Component {
     if (clickedDeities.indexOf(id) === -1) {
       // push that id of the clicked image into the array to be stored
       clickedDeities.push(id);
-      console.log(clickedDeities);
+      // console.log(clickedDeities);
       // run the score function, scores increments by one every time an unclicked image is clicked
       this.handleIncrement();
-      // reshuffle function after each click
+      // run reshuffle function after each click
       this.reShuffle();
       // if all the images have been clicked w/o repeating
     } else if (this.state.score === 12) {
@@ -62,7 +63,7 @@ class App extends Component {
         clickedDeities: []
       });
     } else {
-       // if user loses, reset score counter to 0, empty array
+       // if user clicks an image a second time, reset score counter to 0, empty array
       this.setState({
         score: 0,
         clickedDeities: []
@@ -75,7 +76,7 @@ class App extends Component {
     }
 
 
-// if score is greater than topScore changed the state to the new high score
+// if score is greater than topScore change the state to the new high score
     if (score > topScore) {
       this.setState({
         topScore: score
@@ -84,13 +85,12 @@ class App extends Component {
   };
 
   // handleIncrement increases this.state.score by 1
-  // links to Scoreboard componet index
+  // directly related to Scoreboard componet index
   handleIncrement = () => {
-    // setState updates a components states
     this.setState({ score: this.state.score + 1 });
   };
 
-  // shuffle up images
+  // shuffle images function
   reShuffle = () => {
     this.setState({ deities: shuffle(deities) });
   };
@@ -115,6 +115,7 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         <div className="row">
+          {/* .map() used to iterate over the content of deities and breaks the data into four key value pair pieces */}
           {this.state.deities.map(pic => (
             <Picture
               key={pic.id}
