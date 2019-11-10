@@ -4,13 +4,17 @@
 }
 
 .display-3 {
-    font-size: 6em;
+    font-size: 7em;
     font-weight: bolder;
     color: darkblue;
+    text-shadow: 10px 10px 20px black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
 }
 
 p.lead{
     font-size: 3em;
     font-weight: bold;
     color: slategray;
+    text-shadow: 5px 5px 10px grey;
 }
