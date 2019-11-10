@@ -1,0 +1,16 @@
+.jumbotron {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.display-3 {
+    font-size: 6em;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+p.lead{
+    font-size: 3em;
+    font-weight: bold;
+    color: slategray;
+}

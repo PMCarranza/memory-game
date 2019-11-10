@@ -50,9 +50,11 @@ class App extends Component {
       clickedDeities.push(id);
       // console.log(clickedDeities);
       // run the score function, scores increments by one every time an unclicked image is clicked
-      this.handleIncrement();
+      this.updateScore();
+
       // run reshuffle function after each click
       this.reShuffle();
+
       // if all the images have been clicked w/o repeating
     } else if (this.state.score === 12) {
       // if user wins display message
@@ -75,7 +77,6 @@ class App extends Component {
       });
     }
 
-
 // if score is greater than topScore change the state to the new high score
     if (score > topScore) {
       this.setState({
@@ -84,9 +85,9 @@ class App extends Component {
     }
   };
 
-  // handleIncrement increases this.state.score by 1
+  // updateScore increases this.state.score by 1
   // directly related to Scoreboard componet index
-  handleIncrement = () => {
+  updateScore = () => {
     this.setState({ score: this.state.score + 1 });
   };
 
@@ -111,6 +112,7 @@ class App extends Component {
           Nicely done!
           </div>
         <Scoreboard
+          // updates scores as they change
           score={this.state.score}
           topScore={this.state.topScore}
         />

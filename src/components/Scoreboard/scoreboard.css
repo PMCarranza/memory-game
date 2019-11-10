@@ -2,19 +2,12 @@ body{
     width: 95%;
     margin: 0 auto;
 }
-/* .jumbo {
-    background-color: rgba(23, 6, 136, 0.7);
-    display: flex;
-    justify-content: center;
-    height: 30%;
-} */
 
 .row {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-
 
 h6 {
     font-family: Arial, Helvetica, sans-serif;
@@ -42,13 +35,11 @@ color: lightskyblue;
 -webkit-text-stroke-color: white;
 }
 
-
 .scoreB {
 margin-bottom: 10px;
 background-color: rgba(23, 6, 136, 0.7);
 border-radius: 10px;
 color: white;
-
 }
 
 .col-left {
@@ -63,11 +54,13 @@ padding-top: 20px;
 padding-right: 40px;
 }
 
-.alert-danger {
+.alert.alert-danger {
 font-family: Arial, Helvetica, sans-serif;
-text-transform: uppercase;
-color: #fff;
-background-color: crimson !important;
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+color: red;
+background-color: lightgray;
 border-radius: 10px;
 border: 0 !important;
 padding: 0 !important;
@@ -99,11 +92,6 @@ background-color: #000 !important;
 }
 
 #root {
-/* background-image: url("/clicky-game/public/images/universe.jpg"); */
 background-color: slategray;
-/* background-attachment: fixed;
-/* background-position: center;
-background-repeat: no-repeat;
-background-size: cover; */
 margin-bottom: -30px;
 }
