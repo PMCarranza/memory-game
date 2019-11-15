@@ -1,5 +1,5 @@
 {
-  "name": "no-double-tap",
+  "name": "memory-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,5 +31,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://pmcarranza.github.io/memory-game"
+  "homepage": "https://PMCarranza.github.io/memory-game"
 }
