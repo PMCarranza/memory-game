@@ -1,3 +1,31 @@
+# **Memory Game**
+
+## **Description**
+The purpose of the game is keep track of the images clicked, when the user clicks on an image twice  the game restarts.
+The app keeps track of the current score, every time the user clicks an image the score increases by 1.
+The current high score is displayed at all times.
+Follow the link below to give it a try.
+https://pmcarranza.github.io/memory-game/
+
+### **Roadmap**
+I would like to for this app to be used by children under 5 years old, the goddesses/gods images could be replaced with fruits, animals, vehicles to make it more attractive to them.
+
+### **Visual**
+Quick example of how the app works
+
+<img src="./public/images/double-tap.gif">
+
+### **Maintenance**
+I am the only one keeping up with this app if you would like to contribute to it feel free to clone/fork the repository and I would appreciate your input or feedback.
+
+### **Support**
+Feel free to email me at marino.carranza@gmail.com with question about this project.
+
+### **Acknowledgements**
+I would like to thanks Catherine Pham and Ben Vaagen for their guidance and assistance.
+
+## **General Info**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
