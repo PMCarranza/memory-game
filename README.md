@@ -7,8 +7,17 @@ The current high score is displayed at all times.
 Follow the link below to give it a try.
 https://pmcarranza.github.io/memory-game/
 
+## **Technologies used**
+•  HTML 
+•  React
+•  Bootstrap
+•  JSX
+•  CSS
+•  GitHub pages.
+
 ### **Roadmap**
-I would like to for this app to be used by children under 5 years old, the goddesses/gods images could be replaced with fruits, animals, vehicles to make it more attractive to them.
+Before "branching out", I would like to display only 10 or 12 of the available 14 images and I think I the images displayed need to be a little bit smaller so it is a little more pleasent to the eye.
+I think this app could be beneficial to children under 5 years old especially, to help them reinforce their knowledge of everyday things the goddesses/gods images could be replaced with fruits, animals, vehicles to make it more attractive to them.
 
 ### **Visual**
 Quick example of how the app works
